@@ -6,7 +6,7 @@ public class Main {
         datosEmpleado ventana = new datosEmpleado();
         ventana.setContentPane(ventana.ConsultaEmpleado);
         ventana.setTitle("Calcular salario");
-        ventana.setSize(600,400);
+        ventana.setSize(600,600);
         ventana.setVisible(true);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
